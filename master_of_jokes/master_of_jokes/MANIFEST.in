@@ -1,3 +1,0 @@
-include master_of_jokes/schema.sql
-recursive-include master_of_jokes/static *
-recursive-include master_of_jokes/templates *
