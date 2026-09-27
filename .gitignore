@@ -1,1 +1,35 @@
-master-of-jokes/.venv/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Flask instance folder (local database, config)
+instance/
+*.sqlite
+*.db
+
+# Logs
+*.log
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node (status-report app)
+node_modules/
+
+# Archives
+*.zip
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
